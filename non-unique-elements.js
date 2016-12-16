@@ -1,7 +1,14 @@
 "use strict";
 
 function nonUniqueElements(data) {
-	console.log(x);
+    for (i = 0; i <= data.length; i++) {
+        workingNumber = data(i);
+        uniqueNumber = data.indexOf(workingNumber);
+        console.log(i)
+        if (uniqueNumber === -1) {
+            data.splice(uniqueNumber);    
+        }
+    }
     return data;
 }
 
