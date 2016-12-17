@@ -2,10 +2,10 @@
 
 function nonUniqueElements(data) {
     for (i = 0; i <= data.length; i++) {
-        workingNumber = data(i);
+        workingNumber = data[i];
         uniqueNumber = data.indexOf(workingNumber);
-        console.log(i)
-        if (uniqueNumber === -1) {
+
+        if (uniqueNumber = -1) {
             data.splice(uniqueNumber);    
         }
     }
